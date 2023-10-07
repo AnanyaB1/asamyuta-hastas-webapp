@@ -23,7 +23,7 @@ Ready to test your skills? Here's what you can do on this platform:
 - **Scoring: Two Player Game:** Challenge a friend to compete against you. Aim to showcase as many gestures as you can within a 10-second timeframe. The fastest to gesture correctly wins!
 
 ## Directory Structure
-
+'''
 asamyuta-hastas-webapp
 │ app.py
 │ helper.py
@@ -50,3 +50,4 @@ asamyuta-hastas-webapp
 │
 └───__pycache__
 helper.cpython-39.pyc
+'''
