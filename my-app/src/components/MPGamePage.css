@@ -1,0 +1,159 @@
+.video-container-overlay-game {
+    font-family: 'Outfit', sans-serif; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between; /* This will space out the player overlays */
+}
+  
+.player-overlay {
+display: flex;
+justify-content: center;  /* Center children vertically */
+flex-direction: row;  /* Display content in a horizontal line */
+padding: 0 20px;  /* Add some padding to prevent content from sticking to the edges */
+}
+
+.player1-overlay {
+position: top;
+padding-top: 20px;
+text-align: left;
+}
+
+.player2-overlay {
+position: top;
+padding-top: 20px;
+text-align: right;
+}
+
+
+.winner-text {
+font-size: 35px; /* Example bigger font size for the winner line */
+}
+
+.video-container-overlay p:not(.winner-text) {
+font-size: 16px; /* Example font size for regular lines */
+}
+
+.game-buttons {
+display: flex;
+justify-content: center;
+gap: 10px; /* Spacing between buttons */
+margin-top: 20px; /* Add some spacing */
+flex-direction: column;
+}
+
+.player-stats-container {
+display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: flex-start;
+}
+
+.player-stats {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center; /* Center the items vertically */
+justify-content: center; /* Center the items horizontally */
+padding: 20px; /* Add some spacing */
+}
+
+.video-container-overlay .gestures {
+text-align: center;
+max-width: 80%;  /* You can adjust this value if you want */
+margin-left: auto;
+margin-right: auto;
+font-size: 10px;
+}
+
+/* Multiplayer specific styles */
+.video-container.multiplayer {
+    width: 600px;  /* Adjust as needed for multiplayer */
+    height: 430px;  /* Adjust as needed for multiplayer */
+  }
+  
+  .video-container.multiplayer #webcam, 
+  .video-container.multiplayer .overlay {
+    width: 590px;  /* Adjust as needed for multiplayer */
+    height: 420px;  /* Adjust as needed for multiplayer */
+    /* ... any other styles specific to multiplayer ... */
+  }
+  
+.make-gesture-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;  /* Center the items vertically */
+    padding-top: 20px;  /* Add some padding at the top */
+}
+
+.make-gesture {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* background-color: aquamarine; */
+    
+}
+
+.player1-score {
+    position: absolute;
+    top: 10px;
+    left: 20px;  /* Adjust as needed */
+    font-size: 25px;
+
+}
+
+.player2-score {
+    position: absolute;
+    top: 10px;
+    right: 20px;  /* Adjust as needed */
+    font-size: 25px;
+}
+
+.name-input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.player-name-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.name-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items vertically */
+    justify-content: center; /* Center the items horizontally */
+    padding: 20px; /* Add some spacing */
+}
+
+.name-input input {
+    width: 200px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    font-size: 18px; /* Adjust as needed */
+    text-align: center;
+    color: #4b0082; /* Dark purple color */
+    border: 1px solid #4b0082; /* Optional: This will give the input box a dark purple border */
+    padding: 5px 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+
+    /* Optional: Add some hover and focus styles */
+    &:hover,
+    &:focus {
+        border-color: #800080; /* Brighter purple for hover and focus */
+    }
+}

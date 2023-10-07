@@ -1,0 +1,73 @@
+.howto-container {
+    font-family: 'Outfit', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4ebff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.intro, .instructions, .try-it, .conclusion {
+    margin-bottom: 30px;
+}
+
+.instructions {
+    max-width: 600px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+.conclusion {
+    margin-top: 30px;
+}
+
+.instructions ol, .intro ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 20px;
+}
+
+.try-it {
+    text-align: center;
+}
+
+.gestures-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.gesture-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #9737ff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.gesture-button:hover {
+    background-color: #7b00ff;
+}
+
+.webcam-feed {
+    /* Adjust as per your requirements */
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
