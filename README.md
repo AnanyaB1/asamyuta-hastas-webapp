@@ -11,14 +11,14 @@ Here's what you can do on this platform:
 3. **Two Player Game:** Compete with a friend and see who can nail the most hand gestures in 10 seconds.
 
 ### Home Page
-<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/f79cb1f4-483c-492b-ab8d-3f3fec9a4608" width=60% ><br>
+<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/c51d3d3c-0b1e-40a6-b5c7-22d35509358e" width=60% ><br>
 
 ### Detection & Game Modes
-<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/e99ed800-1f8a-4343-95b1-40bb95ea4dbf" width=40% >
-<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/b1daa06a-7005-4633-9c41-42ff5c98548d" width=40% > <br>
+<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/ccce63ca-fbb5-4013-a7fa-1499b79883b5" width=40% >
+<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/f8c20c04-aef8-46d0-b9b5-df85368ca084" width=40% > <br>
 
 ### Two Player Game
-<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/89afe809-5881-463b-a927-475f4345e6c8" width=40% >
+<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/bc0a1734-5875-40fd-8ce2-db40aa891ea7" width=40% >
 
 
 ## Directory Structure
