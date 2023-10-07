@@ -1,26 +1,25 @@
 # asamyuta-hastas-webapp
 
-A web application that uses a trained model to recognize Asamyuta Hastas. The camera is capable of detecting 28 unique hand gestures, offering users an interactive experience and a fun game to test their skills.
+A web application that uses the trained model I built in [asamyuta-hastas-detection-using-mediapipe](https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe) to recognize 28 unique hand signs, known as the Asamyuta Hastas, from the Indian classical dance form, Bharatanatyam. This is meant to be an interactive experience and a fun game to test dancers' skills.
 
 ## Welcome to Asamyuta Hastas Detection!
 
-Ready to test your skills? Here's what you can do on this platform:
+Here's what you can do on this platform:
 
 1. **Detection:** Simply make a hasta viniyoga, and the algorithm will detect it.
 2. **Single Player Game:** Test your skills as you try to get as many hand gestures right as possible within a 10-second frame.
 3. **Two Player Game:** Compete with a friend and see who can nail the most hand gestures in 10 seconds.
 
-### Tips for a Great Experience:
+### Home Page
+<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/f79cb1f4-483c-492b-ab8d-3f3fec9a4608" width=60% ><br>
 
-- **Positioning:** For optimal results, position your hand clearly in front of your webcam. Ensure your hand is centered and occupies a significant part of the frame.
+### Detection & Game Modes
+<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/e99ed800-1f8a-4343-95b1-40bb95ea4dbf" width=40% >
+<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/b1daa06a-7005-4633-9c41-42ff5c98548d" width=40% > <br>
 
-- **Lighting:** Good lighting is crucial! Be in a well-lit area and avoid shadows or backlighting that might disrupt gesture recognition.
+### Two Player Game
+<img src= "https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe/assets/63778650/89afe809-5881-463b-a927-475f4345e6c8" width=40% >
 
-- **Gesture Recognition:** This game recognizes 28 unique asamyuta hastas. When prompted, aim to replicate the gesture as accurately as possible.
-
-- **Scoring: Single Player Game:** You're given 10 seconds to accumulate points for each accurate gesture you display. Speed matters!
-
-- **Scoring: Two Player Game:** Challenge a friend to compete against you. Aim to showcase as many gestures as you can within a 10-second timeframe. The fastest to gesture correctly wins!
 
 ## Directory Structure
 ```
@@ -51,3 +50,11 @@ asamyuta-hastas-webapp
 └───__pycache__
 helper.cpython-39.pyc
 ```
+
+## Structure
+Backend: Flask
+Frontend: React
+
+## Credits
+How I trained the model to recognise the unique hand gesutues is elaborated upon in [asamyuta-hastas-detection-using-mediapipe](https://github.com/AnanyaB1/asamyuta-hastas-detection-using-mediapipe) for which I took reference from [hand-gesture-recognition-mediapipe repository](https://github.com/kinivi/hand-gesture-recognition-mediapipe). Significant modifications were made to cater to the specific needs of recognizing Asamyuta Hastas, including changes in data collection methodology and model architecture.
+
